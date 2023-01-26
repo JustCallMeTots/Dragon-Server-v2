@@ -1,0 +1,83 @@
+[
+    {
+        "model": "dragonapi.equipment",
+        "pk": 1,
+        "fields": {
+            "weapon_name": "Club",
+            "weapon_type": "Light",
+            "weapon_description": "1d4 bludgeoning"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 2,
+        "fields": {
+            "weapon_name": "Dagger",
+            "weapon_type": "Finesse, light, thrown (range 20/60)",
+            "weapon_description": "1d4 piercing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 3,
+        "fields": {
+            "weapon_name": "Quarterstaff",
+            "weapon_type": "Versatile (1d8)",
+            "weapon_description": "1d6 bludgeoning"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 4,
+        "fields": {
+            "weapon_name": "Crossbow, light",
+            "weapon_type": "Ammunition (range 80/320), loading, two-handed",
+            "weapon_description": "1d8 piercing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 5,
+        "fields": {
+            "weapon_name": "Shortbow",
+            "weapon_type": "Ammunition (range 80/320), two-handed",
+            "weapon_description": "1d6 piercing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 6,
+        "fields": {
+            "weapon_name": "Crossbow, heavy",
+            "weapon_type": "Ammunition (range 100/400), heavy, loading, two-handed",
+            "weapon_description": "1d10 piercing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 7,
+        "fields": {
+            "weapon_name": "Battleaxe",
+            "weapon_type": "Versatile (1d10)",
+            "weapon_description": "1d8 slashing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 8,
+        "fields": {
+            "weapon_name": "Scimitar",
+            "weapon_type": "Finesse, light",
+            "weapon_description": "1d6 slashing"
+        }
+    },
+    {
+        "model": "dragonapi.equipment",
+        "pk": 9,
+        "fields": {
+            "weapon_name": "Halberd",
+            "weapon_type": "Heavy, reach, two-handed",
+            "weapon_description": "1d10 slashing"
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "model": "dragonapi.classes",
+        "pk": 1,
+        "fields": {
+            "classes_name": "Barbarian",
+            "hitDie": "1d12 per level",
+            "saves": "Strength, Constitution",
+            "class_description": "A fierce warrior of primitive background who can enter a battle rage"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 2,
+        "fields": {
+            "classes_name": "Bard",
+            "hitDie": "1d8 per level",
+            "saves": "Charisma, Dexterity",
+            "class_description": "An inspiring magician whose power echoes the music of creation"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 3,
+        "fields": {
+            "classes_name": "Cleric",
+            "hitDie": "1d8 per level",
+            "saves": "Wisdom, Charisma",
+            "class_description": "A priestly champion who wields divine magic in service of a higher power"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 4,
+        "fields": {
+            "classes_name": "Druid",
+            "hitDie": "1d8 per level",
+            "saves": "Intelligence, Wisdom",
+            "class_description": "A priest of the Old Faith, wielding the powers of nature — moonlight and plant growth, fire and lightning — and adopting animal forms"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 5,
+        "fields": {
+            "classes_name": "Fighter",
+            "hitDie": "1d10 per level",
+            "saves": "Strength, Constitution",
+            "class_description": "A master of martial combat, skilled with a variety of weapons and armor"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 6,
+        "fields": {
+            "classes_name": "Monk",
+            "hitDie": "1d8 per level",
+            "saves": "Dexterity, Strength (all at lvl 14)",
+            "class_description": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 7,
+        "fields": {
+            "classes_name": "Paladin",
+            "hitDie": "1d10 per level",
+            "saves": "Wisdom, Charisma",
+            "class_description": "A holy warrior bound to a sacred oath"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 8,
+        "fields": {
+            "classes_name": "Ranger",
+            "hitDie": "1d10 per level",
+            "saves": "Dexterity, Strength",
+            "class_description": "A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 9,
+        "fields": {
+            "classes_name": "Rogue",
+            "hitDie": "1d8 per level",
+            "saves": "Dexterity, Intelligence",
+            "class_description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 10,
+        "fields": {
+            "classes_name": "Sorcerer",
+            "hitDie": "1d6 per level",
+            "saves": "Constitution, Charisma",
+            "class_description": "A spellcaster who draws on inherent magic from a gift or bloodline"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 11,
+        "fields": {
+            "classes_name": "Warlock",
+            "hitDie": "1d8 per level",
+            "saves": "Wisdom, Charisma",
+            "class_description": "A wielder of magic that is derived from a bargain with an extraplanar entity"
+        }
+    },
+    {
+        "model": "dragonapi.classes",
+        "pk": 12,
+        "fields": {
+            "classes_name": "Wizard",
+            "hitDie": "1d6 per level",
+            "saves": "Intelligence, Wisdom",
+            "class_description": "A scholarly magic-user capable of manipulating the structures of reality"
+        }
+    }
+]
