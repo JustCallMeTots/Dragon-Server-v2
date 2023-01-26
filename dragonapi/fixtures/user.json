@@ -1,0 +1,10 @@
+[
+    {
+        "model": "dragonapi.user",
+        "pk": 1,
+        "fields": {
+            "uid": 1,
+            "bio": "Me"
+        }
+    }
+]

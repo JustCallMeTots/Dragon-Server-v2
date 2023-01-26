@@ -1,0 +1,200 @@
+[
+    {
+        "model": "dragonapi.race",
+        "pk": 1,
+        "fields": {
+            "race_name": "Dwarf",
+            "ability_increase": "Your Constitution score increases by 2.",
+            "race_description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 2,
+        "fields": {
+            "race_name": "Elf",
+            "ability_increase": "Your Dexterity score increases by 2.",
+            "race_description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 3,
+        "fields": {
+            "race_name": "Halfling",
+            "ability_increase": "Your Dexterity score increases by 2.",
+            "race_description": "The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 4,
+        "fields": {
+            "race_name": "Human",
+            "ability_increase": "Your ability scores each increase by 1.",
+            "race_description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 5,
+        "fields": {
+            "race_name": "Dragonborn",
+            "ability_increase": "Your Strength score increases by 2, and your Charisma score increases by 1.",
+            "race_description": "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 6,
+        "fields": {
+            "race_name": "Gnome",
+            "ability_increase": "Your Intelligence score increases by 2.",
+            "race_description": "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 7,
+        "fields": {
+            "race_name": "Half-elf",
+            "ability_increase": "Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.",
+            "race_description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 8,
+        "fields": {
+            "race_name": "Half-Orc",
+            "ability_increase": "Your Strength score increases by 2, and your Constitution score increases by 1.",
+            "race_description": "Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human communities, sometimes form alliances. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud leaders of orc communities. Some venture into the world to prove their worth. Many of these become adventurers, achieving greatness for their mighty deeds."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 9,
+        "fields": {
+            "race_name": "Tiefling",
+            "ability_increase": "Your Intelligence score increases by 1, and your Charisma score increases by 2.",
+            "race_description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 10,
+        "fields": {
+            "race_name": "Aarakocra",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander. The first aarakocra served the Wind Dukes of Aaqa—mighty beings of air—and were imbued with a measure of their masters’ power over winds. Their descendants still command echoes of that power."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 11,
+        "fields": {
+            "race_name": "Aasimar",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Whether descended from a celestial being or infused with heavenly power, aasimar are mortals who carry a spark of the Upper Planes within their souls. They can fan that spark to bring light, ease wounds, and unleash the fury of the heavens. Aasimar can arise among any population of mortals."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 12,
+        "fields": {
+            "race_name": "Goliath",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "The first goliaths lived on the highest mountain peaks—far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors’ mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 13,
+        "fields": {
+            "race_name": "Tabaxi",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. In some lands, tabaxi live like the cats they resemble, naturally curious and at home in playful environments. In other places, tabaxi live as other folk do, not exhibiting the feline behavior the Cat Lord intended."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 14,
+        "fields": {
+            "race_name": "Kobold",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales and in their roars. Legends tell of the first kobolds emerging from the Underdark near the lairs of the earliest dragons. In some lands, kobolds serve chromatic or metallic dragons—even worshiping them as divine beings. In other places, kobolds know too well how dangerous those dragons can be and help others defend against draconic destruction."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 15,
+        "fields": {
+            "race_name": "Kenku",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Feathered folk who resemble ravens, kenku are blessed with keen observation and supernaturally accurate memories. None of them can remember the origin of the first kenku, however, and they often joke that there are as many kenku origin stories as there are kenku. Some of them paint their genesis as a curse, being a flightless bird people doomed to mimic other people’s creations. Other kenku recite cryptic but beautiful poems about their advent being a blessed event in which they were sent into the multiverse to observe and catalog its many wonders."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 16,
+        "fields": {
+            "race_name": "Tortle",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Tortles have a saying: “We wear our homes on our backs.” These turtle folk live on many worlds, most often journeying up and down coasts, along waterways, and across the sea. Tortles don’t have a unified story of how they were created, but they all have a sense of being mystically connected to the natural world. Carrying their shelter on their backs gives tortles a special feeling of security wherever they go, for even if they visit a far, unknown country, they have a place to lay their heads."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 17,
+        "fields": {
+            "race_name": "Harengon",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm’s exuberance with them and learning new languages as they went."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 18,
+        "fields": {
+            "race_name": "Shifter",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Shifters are sometimes called weretouched, as they are descendants of people who contracted full or partial lycanthropy. Humanoids with a bestial aspect, shifters can’t fully change shape, but they can temporarily enhance their animalistic features by entering a state they call shifting."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 19,
+        "fields": {
+            "race_name": "Githyanki",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Once members of a people who escaped servitude to mind flayers, githyanki split from their cousins, githzerai, and fled to the Astral Plane. In that timeless, silvery realm, githyanki honed their psionic powers and built a great city called Tu’narath. They have since spread throughout the multiverse, starting in outposts outside the Astral Plane, called creches, where time passes and their children can reach adulthood."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 20,
+        "fields": {
+            "race_name": "Githzerai",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Githzerai migrated to the Everchanging Chaos of Limbo after the ancient schism that split their ancestors from their cousins, githyanki. Limbo is a roiling maelstrom of matter and energy, collapsing and reforming without purpose or direction, until a creature exerts deliberate will to stabilize it. Through their potent psionic power, githzerai carved a home for themselves amid the chaos. As the ages passed, githzerai explorers ranged out to other planes and worlds of the multiverse."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 21,
+        "fields": {
+            "race_name": "Bugbear",
+            "ability_increase": "increase one score by 2 and increase a different score by 1, or increase three different scores by 1.",
+            "race_description": "Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god’s influence."
+        }
+    },
+    {
+        "model": "dragonapi.race",
+        "pk": 22,
+        "fields": {
+            "race_name": "Warforged",
+            "ability_increase": "Your Constitution score increases by 2, and one other ability score of your choice increases by 1.",
+            "race_description": "The warforged were built to fight in the Last War. While the first warforged were mindless automatons, House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced sapient soldiers, giving rise to what some have only grudgingly accepted as a new species. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war. A warforged can be a steadfast ally, a cold-hearted killer, or a visionary in search of meaning."
+        }
+    }
+]

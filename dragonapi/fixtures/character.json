@@ -1,0 +1,18 @@
+[
+    {
+        "model": "dragonapi.character",
+        "pk": 1,
+        "fields": {
+            "uid": 1,
+            "name": "Me",
+            "level": "20",
+            "race": 12,
+            "classes_name": 4,
+            "ability": "12 11 10 13 14 15",
+            "description": "a character",
+            "equipment": 9,
+            "spells": "has spells",
+            "alive": true
+        }
+    }
+]
