@@ -73,6 +73,11 @@ class CharacterView(ViewSet):
         Character.save()
         
         return Response(None, status=status.HTTP_204_NO_CONTENT)
+    
+    def destroy(self, request, pk):
+        Character = character.objects.get(pk=pk)
+        Character.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
         
 
 class CharacterSerializer(serializers.ModelSerializer):
