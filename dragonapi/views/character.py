@@ -45,7 +45,36 @@ class CharacterView(ViewSet):
         )
         serializer = CharacterSerializer(Character)
         return Response(serializer.data)
-      
+    
+    def update(self, request, pk):
+        """_summary_
+
+        Args:
+            request (_type_): _description_
+            pk (_type_): _description_
+        """
+        
+        Character = character.objects.get(pk=pk)
+        print(Character)
+        User = user.objects.get(uid=request.data["uid"])
+        Character.uid = User
+        Character.name = request.data["name"]
+        Character.level = request.data["level"]
+        Race = race.objects.get(pk=request.data["race"])
+        Character.race = Race
+        Classes = classes.objects.get(pk=request.data["classes_name"])
+        Character.classes_name = Classes
+        Character.ability = request.data["ability"]
+        Character.description = request.data["description"]
+        Equipment = equipment.objects.get(pk=request.data["equipment"])
+        Character.equipment = Equipment
+        Character.spells = request.data["spells"]
+        Character.alive = request.data["alive"]
+        Character.save()
+        
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+        
+
 class CharacterSerializer(serializers.ModelSerializer):
     """JSON serializer for character serializer class determines how the Python data should be serialized to be sent back to the client
     """
