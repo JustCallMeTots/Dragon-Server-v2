@@ -3,3 +3,4 @@ from .charclass import charclass
 from .classes import classes
 from .race import race
 from .equipment import equipment
+from .user import user
