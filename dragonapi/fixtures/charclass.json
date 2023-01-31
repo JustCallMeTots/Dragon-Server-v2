@@ -1,0 +1,10 @@
+[
+    {
+        "model": "dragonapi.charclass",
+        "pk": 1,
+        "fields": {
+            "class_id": 11,
+            "character_id": 2
+        }
+    }
+]

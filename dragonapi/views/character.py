@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from dragonapi.models import character, race, equipment, classes, user
+from dragonapi.models import character, race, equipment, classes, user, charclass
 
 
 class CharacterView(ViewSet):
@@ -28,7 +28,6 @@ class CharacterView(ViewSet):
         """
         User = user.objects.get(uid=request.data["uid"])
         Race = race.objects.get(pk=request.data["race"])
-        Classes = classes.objects.get(pk=request.data["classes_name"])
         Equipment = equipment.objects.get(pk=request.data["equipment"])
         
         Character = character.objects.create(
@@ -36,13 +35,15 @@ class CharacterView(ViewSet):
             name=request.data["name"],
             level=request.data["level"],
             race=Race,
-            classes_name=Classes,
             ability=request.data["ability"],
             description=request.data["description"],
             equipment=Equipment,
             spells=request.data["spells"],
             alive=request.data["alive"]
         )
+        for id in request.data["charclasses"]:
+            class_id = classes.objects.get(pk=id)
+            charclass.objects.create(class_id=class_id, character_id=Character)
         serializer = CharacterSerializer(Character)
         return Response(serializer.data)
     
@@ -79,10 +80,17 @@ class CharacterView(ViewSet):
         Character.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
         
+class CharclassSerializer(serializers.ModelSerializer):
+    """"""
+    class Meta:
+        model = charclass
+        depth = 1
+        fields = ('class_id', 'character_id')
 
 class CharacterSerializer(serializers.ModelSerializer):
     """JSON serializer for character serializer class determines how the Python data should be serialized to be sent back to the client
     """
+    charclasses = CharclassSerializer(many=True)
     class Meta:
         model = character
-        fields = ('uid', 'name', 'level', 'race', 'classes_name', 'ability', 'description', 'equipment', 'spells', 'alive')
+        fields = ('id', 'uid', 'name', 'level', 'race', 'ability', 'description', 'equipment', 'spells', 'alive', 'charclasses')
